@@ -1,0 +1,54 @@
+
+
+.card {
+    width: 359px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    height: 100%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.grid {
+
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+input[type=datetime-local] {
+    margin-bottom: 5px;
+    background-color: #33af52;
+    opacity: 80%;
+    border-radius: 5px;
+    outline: none;
+    width: 45%;
+}
+
+.rate {
+    outline: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 2px;
+    width: 45%;
+}
+
+.calculate {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #33af52;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: #43a93d;
+    transition: border-color 700ms;
+}
+
+.calculate:hover {
+      border-color: #3a8949;
+}

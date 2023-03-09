@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W/P Calculator</title>
+    <link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="card">
+            <h1 class="text-center">Calculator</h1>
+            
+            <form action="#">
+                <div class="grid">
+                    
+                    <label for="start-time">When i started work? </label>
+                    <input required type="datetime-local" name="start-time" id="start-time" value="" />
+                    
+                    <br />         
+                                
+                    <label for="end-time">When i ended work? </label>
+                    <input required type="datetime-local" name="end-time" id="end-time" value="" />
+                                
+                    
+                    <br>
+                      
+                    <label  for="rate" >What is my hourly rate? </label>
+                    <input required type="number" class="rate" name="rate" id="rate" value="" />
+                     
+                    <br>            
+                                
+                    <input type="submit" class="calculate" name="calculate" id="calculate" value="Calculate" />
+                </div>
+            </form>   
+        </div>
+    </div>
+    
+    
+    <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
