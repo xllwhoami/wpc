@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+/* @tailwind utilities; */
+
+body {
+  @apply bg-slate-800 text-slate-50;
+}
+
+.own-container {
+  @apply container mx-auto px-5 flex justify-center mt-24 w-screen h-screen;
+}
+
+.calculator {
+  @apply grid grid-cols-2  border-2 border-cyan-300 rounded-lg p-4 transition hover:border-cyan-600;
+}
+
+.field {
+  @apply mx-4;
+}
+
+.label > input {
+  @apply col-span-2;
+}
+
+.field > input {
+  @apply border-b-2 outline-none border-cyan-200 bg-transparent text-slate-300 transition hover:border-cyan-600;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  margin: 0;
+}
